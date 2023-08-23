@@ -1,0 +1,52 @@
+#screen {
+    display: flex;
+    font-size: 40px;
+    border-style: solid;
+    padding: 8px;
+    justify-content: flex-end;
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+button {
+
+    font-weight: bolder;
+    font-size: 26px;
+    margin: 4px;
+    width: 100px;
+}
+
+.operator {
+    background-color: rgb(255, 143, 31);
+}
+
+.operand {
+    background-color: rgb(33, 124, 126);
+}
+
+.blue {
+    background-color: rgb(30, 144, 255);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+#screen {
+    flex: 1 1 0;
+    font-size: 100px;
+}
+
+#wrapper {
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}

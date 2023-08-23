@@ -1,0 +1,33 @@
+Thinking about the code:
+
+firstInput = x
+a = x
+b = x
+
+add Values to firstInput
+if operator is pressed
+    if (a == x)
+        -> transfer firstInput to a
+        -> firstInput = x
+    else
+        continue
+if equal sign
+    transfer firstInput to b
+    firstInput to x
+    operate(operator, a, b) -> consolelog() out of function
+else
+    addValues to firstInput
+
+// need special case, where I want to work with the sum
+
+I can make in the equal case, firstInput speicla like = "y"
+
+if firstInput ="y"
+    if input isNum
+        all 0/fresh start
+    else if operator
+        work with sum
+
+// I miss update on screen when numbers are typed in
+// Do I need to store multiple calcs? I can update screen if 
+// another operator is pressed and operator does not equal x
